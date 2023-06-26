@@ -237,8 +237,8 @@
                                                 <i class="zmdi zmdi-account-o"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>10368</h2>
-                                                <span>members online</span>
+                                                <h2>4250</h2>
+                                                <span>Clientes Atendidos</span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">
@@ -255,8 +255,8 @@
                                                 <i class="zmdi zmdi-shopping-cart"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>388,688</h2>
-                                                <span>items solid</span>
+                                                <h2>103</h2>
+                                                <span>Citas Programadas</span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">
@@ -273,8 +273,8 @@
                                                 <i class="zmdi zmdi-calendar-note"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>1,086</h2>
-                                                <span>this week</span>
+                                                <h2>77</h2>
+                                                <span>Citas esta semana</span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">
@@ -291,8 +291,8 @@
                                                 <i class="zmdi zmdi-money"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>$1,060,386</h2>
-                                                <span>total earnings</span>
+                                                <h2>500,386 Bs</h2>
+                                                <span>Ingresos generados</span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">

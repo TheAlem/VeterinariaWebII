@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="990F432F-545B-57D6-4208-44C3E1D1719E" name="Shift Assignment">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:52:37 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="shift assign date" id="822763F0-1AD1-E4CD-4789-1762B9FF57D4">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:52:57 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A57624CA-73F9-626F-512D-52B32811FE8C" name="Shift Assignment PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:53:21 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>822763F0-1AD1-E4CD-4789-1762B9FF57D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

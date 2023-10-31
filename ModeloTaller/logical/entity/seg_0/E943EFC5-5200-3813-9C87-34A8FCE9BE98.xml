@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E943EFC5-5200-3813-9C87-34A8FCE9BE98" name="STAFF">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:25:12 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="FE671EF1-9F2F-7D79-A91C-6DD67A0C4194">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:26:24 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="BC83DA21-98BB-BE33-ADFC-215BA3EB70ED">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:28:35 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="2AB2DF00-397E-2A35-4820-67588F01BFC2">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:29:14 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Birth date" id="2DDC87F1-38D1-1F6F-D290-6B9CF4C5401E">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:30:08 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="90E317F7-EE02-E34A-7007-6D5B3D32CC69">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:32:12 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,2,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="training" id="24E84E35-C2AA-A8C3-9A62-0D914FAD1F77">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:32:31 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="overtime rate" id="B242AFBE-45A4-2149-DA33-9CB787198B8B">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:33:11 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="budget" id="00122162-DDFE-05D1-B0B8-9D2A978072E8">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:33:33 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="target reserver" id="5EF6A046-3790-7984-CBBC-E5FFB279425A">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:34:21 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="E2E35E4D-23F0-B0F2-A15D-0C4B718CA1CC">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 21:04:05 UTC</createdTime>
+<generatorID>C6F31CA2-C0B3-B4C2-035A-01595A08A1FD</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FE671EF1-9F2F-7D79-A91C-6DD67A0C4194</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F468CB1C-A04C-2383-5737-06C1F8390522" name="STAFF PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:27:48 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE671EF1-9F2F-7D79-A91C-6DD67A0C4194</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

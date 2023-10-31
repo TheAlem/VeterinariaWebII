@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6ABEA497-AB28-AE96-CB60-5381F71BA5E2" name="Food Item">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:43:44 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FoodItemNumber" id="EBDCD64A-345A-8BF5-86DC-F0C2015C4600">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:44:56 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="3871E66F-0604-EAC0-5815-8AC2ED102F12">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:45:06 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="834F4F33-0F51-29F7-6F62-30A521B04295">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:45:21 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="9A2442CA-AF5C-7AFC-5932-3D4E03977C72">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 21:16:45 UTC</createdTime>
+<generatorID>A5EC6E41-82FE-BF17-56DF-ECC6D2A9DE39</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<referedAttribute>FBCF4E6B-3E07-B53F-AE1D-A59A184B76D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code1" id="B033CD2C-74B0-0FD3-5181-7D07D9FB01E7">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 21:17:14 UTC</createdTime>
+<generatorID>BFB0C649-18D9-1468-5E81-606EB2D72165</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<referedAttribute>C0FB274A-6DDA-1143-9E30-43D2369E0221</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="885B5607-47E2-0D53-AD63-70452656065A" name="Food Item PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:45:05 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBDCD64A-345A-8BF5-86DC-F0C2015C4600</attributeRef>
+<attributeRef>9A2442CA-AF5C-7AFC-5932-3D4E03977C72</attributeRef>
+<attributeRef>B033CD2C-74B0-0FD3-5181-7D07D9FB01E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pedir" directorySegmentName="seg_0" id="C93EF096-E9DA-4849-9DA0-D45483841CBB">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 20:58:27 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<sourcePk>53215F98-FC82-E572-0A42-13AD31E66D92</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Realiza</nameOnSource>
+<nameOnTarget>Registra</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5719379-9893-C95D-1161-1301F0E63A88</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>480D3C1D-0655-E9AE-DE42-45E962257C49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

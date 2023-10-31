@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dependencia" directorySegmentName="seg_0" id="C6F31CA2-C0B3-B4C2-035A-01595A08A1FD">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 21:04:05 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<targetPk>F468CB1C-A04C-2383-5737-06C1F8390522</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Gerente</nameOnSource>
+<nameOnTarget>Responsable</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E943EFC5-5200-3813-9C87-34A8FCE9BE98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E943EFC5-5200-3813-9C87-34A8FCE9BE98</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

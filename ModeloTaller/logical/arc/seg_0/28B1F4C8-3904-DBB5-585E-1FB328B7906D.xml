@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="28B1F4C8-3904-DBB5-585E-1FB328B7906D" name="Arc_1">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-10-31 21:17:34 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+</engineerTo>
+<entity>6ABEA497-AB28-AE96-CB60-5381F71BA5E2</entity>
+<relations>
+<relationID>A5EC6E41-82FE-BF17-56DF-ECC6D2A9DE39</relationID>
+<relationID>BFB0C649-18D9-1468-5E81-606EB2D72165</relationID>
+</relations>
+</Arc>

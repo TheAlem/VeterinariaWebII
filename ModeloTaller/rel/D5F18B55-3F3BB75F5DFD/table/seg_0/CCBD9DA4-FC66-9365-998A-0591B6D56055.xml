@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCBD9DA4-FC66-9365-998A-0591B6D56055" name="Customer">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>E5719379-9893-C95D-1161-1301F0E63A88</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="3DA8C1ED-5974-1BDF-7ECA-A383F2C41F3B">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>AF4076FC-1029-9AE0-7CEB-03502319E92B</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="CFAD1593-22B5-93AD-9E95-ACA65236EA39">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>3E48B913-E6F6-F7A3-4E6C-323930F1280C</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="17F20B8B-D429-2A47-85B7-7E7219549244">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>64825947-E642-62FD-B40E-1E53C096CA75</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="3F8D8CDC-9925-2E88-1894-278738E58B3A">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>B87AF8A1-B7A3-FD1B-4B0B-903A1C3DEEC5</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="BE4EA802-B783-BE2F-8BC2-204DA3E9E117">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>17A6344B-9AB3-E9A9-7DBB-D1582AAEA651</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="CB18F860-EE50-330E-F25C-6E071953CC42">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>90F906A0-F259-0069-7336-294DED05FD4C</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zip" id="B91AB948-36BB-2FE8-91D0-F13FDD7384B8">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>B4964599-A726-1543-9228-60C035D4D5D0</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_number" id="9CC9DA07-7813-6575-B7FB-204854E3B7F0">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>EE1E7888-BED5-08FB-8234-96F05A32F8A8</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D59CDC28-404D-E41E-D6E5-4170A8F0BC25" name="Customer_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>53215F98-FC82-E572-0A42-13AD31E66D92</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DA8C1ED-5974-1BDF-7ECA-A383F2C41F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

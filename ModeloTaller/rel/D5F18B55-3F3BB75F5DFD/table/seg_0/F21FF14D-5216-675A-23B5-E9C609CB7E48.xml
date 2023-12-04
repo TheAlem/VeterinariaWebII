@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F21FF14D-5216-675A-23B5-E9C609CB7E48" name="Cook">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>8E6974ED-7334-82EF-A5BB-F59F52E36CB4</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="CEA01994-33FD-411D-63B7-81B62BD293C6">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>FE671EF1-9F2F-7D79-A91C-6DD67A0C4194</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="296148D1-6A14-F43D-8CC0-5159007B8AFE" referredColumn="70F6C970-214F-FA4F-49E4-C5111AA211B5"/>
+</associations>
+</Column>
+<Column name="Training" id="118B9326-EDD7-D446-A0D1-F9BF36F70B97">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>4525FA52-A36D-D0BF-DE78-EF03EBAE49C4</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="872AAF8B-6E4E-55B7-313A-93AC23518602" name="Cook_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>F468CB1C-A04C-2383-5737-06C1F8390522</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEA01994-33FD-411D-63B7-81B62BD293C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="935F877E-45FF-288C-AD3A-C9700BE37E25" name="Cook_STAFF_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>25E6EFF3-F2C3-F758-4F48-63B8BB448816</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEA01994-33FD-411D-63B7-81B62BD293C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

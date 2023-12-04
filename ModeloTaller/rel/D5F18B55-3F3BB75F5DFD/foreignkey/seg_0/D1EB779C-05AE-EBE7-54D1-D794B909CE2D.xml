@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1EB779C-05AE-EBE7-54D1-D794B909CE2D" containerWithKeyObject="B73590EC-4F21-C4CE-43AB-924C825B114E" localFKIndex="49E6CD20-A009-B1C5-4B32-AD634F1EB444" name="Shift_Assignment_Shift_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>38D70909-579C-7DC9-6039-D72ECBED5690</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<referredTableLongName>Shift</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>24EE4215-74B0-3D35-B34A-1BCA4C60C1E9</referredTableID>
+<keyObject>1D2EEA59-205D-A76A-2A14-07BC7ED30ED0</keyObject>
+<referredKeyID>1D2EEA59-205D-A76A-2A14-07BC7ED30ED0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE2EBFEE-EA1C-296A-132C-4793A76AF492" name="Order_Taker">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>DA2D4F17-E87F-6050-5603-294D33B566CC</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="4A2951D1-6198-3A4F-1A35-C551DD951668">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>FE671EF1-9F2F-7D79-A91C-6DD67A0C4194</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61706CF2-22A6-54BF-1686-458E74598936" referredColumn="70F6C970-214F-FA4F-49E4-C5111AA211B5"/>
+</associations>
+</Column>
+<Column name="Overtime_Rate" id="C5E1D8D5-E8E1-FD72-80F1-9A6A36D51536">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>B9AB93A1-5127-819B-36F8-AB3BD565CB8F</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACE6A775-D894-2540-BDEF-3E08504E10A0" name="Order_Taker_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>F468CB1C-A04C-2383-5737-06C1F8390522</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A2951D1-6198-3A4F-1A35-C551DD951668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8304DD77-3394-CA19-2E29-47BAF57E1016" name="Order_Taker_STAFF_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>95771E58-9567-AF60-8D17-E83AFBA6FC55</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A2951D1-6198-3A4F-1A35-C551DD951668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

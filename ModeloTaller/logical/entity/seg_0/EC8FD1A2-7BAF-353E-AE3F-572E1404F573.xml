@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E6974ED-7334-82EF-A5BB-F59F52E36CB4" name="Cook">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC8FD1A2-7BAF-353E-AE3F-572E1404F573" name="Manager">
 <createdBy>GAMER</createdBy>
-<createdTime>2023-10-31 21:08:37 UTC</createdTime>
+<createdTime>2023-11-03 20:24:04 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
 <item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
@@ -16,9 +16,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Training" id="4525FA52-A36D-D0BF-DE78-EF03EBAE49C4">
+<Attribute name="Budget" id="15409216-1AC7-9557-891B-70C4A3BC508B">
 <createdBy>GAMER</createdBy>
-<createdTime>2023-10-31 21:08:46 UTC</createdTime>
+<createdTime>2023-11-03 20:24:18 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" Target Reveune" id="77043146-96A6-5B52-4C26-B33C3E69B1CC">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:24:37 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
 <item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
@@ -26,8 +39,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

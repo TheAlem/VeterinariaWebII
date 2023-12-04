@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B73590EC-4F21-C4CE-43AB-924C825B114E" name="Shift_Assignment">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>990F432F-545B-57D6-4208-44C3E1D1719E</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="shift_assign_date" id="E298083A-001C-A0A2-E7A1-A8007A6CF399">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>822763F0-1AD1-E4CD-4789-1762B9FF57D4</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFF_Id" id="794C47FD-0192-04E9-B820-C666E3330519">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>90EC7EFC-D747-B292-0DEB-0B4895CD6671</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BBA0445-93C5-AD77-00F8-06FB68E2B91B" referredColumn="70F6C970-214F-FA4F-49E4-C5111AA211B5"/>
+</associations>
+</Column>
+<Column name="Shift_Code" id="372BAE45-B69E-65EE-23E1-8CC4DE002233">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>ACA93C40-F908-D7CC-F4C6-8E67125ED51D</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1EB779C-05AE-EBE7-54D1-D794B909CE2D" referredColumn="DA5F2E56-42AD-2205-B6A9-54F7CC1A148F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8A2C9BE-A4A0-923A-0729-A1B465417191" name="Shift_Assignment_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>A57624CA-73F9-626F-512D-52B32811FE8C</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E298083A-001C-A0A2-E7A1-A8007A6CF399"/>
+<colUsage columnID="794C47FD-0192-04E9-B820-C666E3330519"/>
+<colUsage columnID="372BAE45-B69E-65EE-23E1-8CC4DE002233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CEB8599-49DD-E257-B852-BD019DCD67B3" name="Shift_Assignment_STAFF_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>E7AA16AB-2385-BC3E-359E-51BDCD8586EB</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794C47FD-0192-04E9-B820-C666E3330519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49E6CD20-A009-B1C5-4B32-AD634F1EB444" name="Shift_Assignment_Shift_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>38D70909-579C-7DC9-6039-D72ECBED5690</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="372BAE45-B69E-65EE-23E1-8CC4DE002233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

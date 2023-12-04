@@ -4,7 +4,7 @@
 <createdTime>2023-10-31 20:39:41 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-10-31 20:40:44 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2023-10-31 20:41:26 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2023-10-31 20:41:37 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,9 +60,24 @@
 <generatorID>C93EF096-E9DA-4849-9DA0-D45483841CBB</generatorID>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <referedAttribute>AF4076FC-1029-9AE0-7CEB-03502319E92B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="8A8D57D2-946C-F8BC-66D7-198BC722F788">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:19:31 UTC</createdTime>
+<generatorID>39C027B0-DBA8-17C0-A162-1CAA7B17E470</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
+</engineerTo>
+<referedAttribute>FE671EF1-9F2F-7D79-A91C-6DD67A0C4194</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
@@ -76,7 +91,7 @@
 <createdTime>2023-10-31 20:41:23 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

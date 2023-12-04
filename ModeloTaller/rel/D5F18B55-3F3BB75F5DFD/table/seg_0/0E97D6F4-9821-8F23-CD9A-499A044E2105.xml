@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E97D6F4-9821-8F23-CD9A-499A044E2105" name="Order_Line">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>4E6CDBA3-66DE-0A68-8243-C777F70E81EC</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="quantity" id="B3B93DAD-6667-E36A-45A8-0B7624379150">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>6333695D-05BD-8C46-EADB-2E6487F43B86</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_OrderNumber" id="9DA4D49D-D991-1C77-0171-6C73A67F9FB8">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>E67E08E7-2708-48E1-66F8-E8924D5A2A56</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65C3DEBE-F164-7A63-FDD3-4BD95C17AC61" referredColumn="5B8D274E-2122-1E87-120E-EB4CF2D85835"/>
+</associations>
+</Column>
+<Column name="Order_Customer_Id" id="CC84584A-DD52-E378-831E-CDBA264FE42D">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>7E451A42-2E9D-628D-AA73-5FAB1BF372D6</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65C3DEBE-F164-7A63-FDD3-4BD95C17AC61" referredColumn="A6775F85-2BAB-4BB5-602B-CDDB5E8E28E7"/>
+</associations>
+</Column>
+<Column name="Food_Item_Food_Item_ID" id="631FD076-9A56-2464-356F-E30DC595EFE6">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ADFF405-84C1-409B-FA72-C2791AC22E0C" referredColumn="5D7913A2-88C7-62BF-FAEA-0E3AFB1A26A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A359CEEB-9D67-6FAA-51DE-85F1C41E1030" name="Order_Line_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>511E2CA5-B778-7D58-AE8F-0667DBA8AF75</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631FD076-9A56-2464-356F-E30DC595EFE6"/>
+<colUsage columnID="9DA4D49D-D991-1C77-0171-6C73A67F9FB8"/>
+<colUsage columnID="CC84584A-DD52-E378-831E-CDBA264FE42D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35592403-B910-30B0-5DC1-7154C2BC8783" name="Order_Line_Food_Item_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>D934F6E1-D649-5D40-E23A-5A0164CC28D9</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631FD076-9A56-2464-356F-E30DC595EFE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E66CC24E-E1F7-C58E-7591-FB06B5F0E8ED" name="Order_Line_Order_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>86E38592-0E81-B98A-02C6-07479E10A139</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DA4D49D-D991-1C77-0171-6C73A67F9FB8"/>
+<colUsage columnID="CC84584A-DD52-E378-831E-CDBA264FE42D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

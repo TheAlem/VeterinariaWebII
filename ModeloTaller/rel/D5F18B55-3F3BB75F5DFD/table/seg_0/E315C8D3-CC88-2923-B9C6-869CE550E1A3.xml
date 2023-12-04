@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E315C8D3-CC88-2923-B9C6-869CE550E1A3" name="Food_Item">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>6ABEA497-AB28-AE96-CB60-5381F71BA5E2</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FoodItemNumber" id="58699ADA-93F4-71FC-4485-D3F7265E53EC">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>EBDCD64A-345A-8BF5-86DC-F0C2015C4600</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="D9F19F8C-42C6-8605-1EFA-3CED57E7591D">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>3871E66F-0604-EAC0-5815-8AC2ED102F12</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="B50FDB32-D886-ECB2-E704-CC2EB02087D9">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>834F4F33-0F51-29F7-6F62-30A521B04295</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Promotional_Menu_code" id="4BE72964-B7EA-6AB2-4D1A-1FE807B1F92B">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>9A2442CA-AF5C-7AFC-5932-3D4E03977C72</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5694CC87-7345-0E56-3249-59B11ED35D2E" referredColumn="C6C6C66A-09B8-6C26-D65E-A42484704590"/>
+</associations>
+</Column>
+<Column name="Regular_Menu_code" id="4CCB1C6A-7A9C-F460-849A-F6FA75C627E9">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>B033CD2C-74B0-0FD3-5181-7D07D9FB01E7</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07A3874D-878E-1DF3-B214-41489FD1FFA2" referredColumn="5C2381F7-111E-C580-49DC-218042841A0F"/>
+</associations>
+</Column>
+<Column name="Food_Item_ID" id="5D7913A2-88C7-62BF-FAEA-0E3AFB1A26A2">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00535747-4BCC-A0B7-CD68-4FDAE5363128" name="Food_Item_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5D7913A2-88C7-62BF-FAEA-0E3AFB1A26A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0512D29-1B35-822C-EFF0-7159AA3BA73F" name="Food_Item_FoodItemNumber_code_code1_UN">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>885B5607-47E2-0D53-AD63-70452656065A</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58699ADA-93F4-71FC-4485-D3F7265E53EC"/>
+<colUsage columnID="4BE72964-B7EA-6AB2-4D1A-1FE807B1F92B"/>
+<colUsage columnID="4CCB1C6A-7A9C-F460-849A-F6FA75C627E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="234E3E41-C149-CD88-E3E1-DBF63D319852" name="Food_Item_Promotional_Menu_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>A5EC6E41-82FE-BF17-56DF-ECC6D2A9DE39</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE72964-B7EA-6AB2-4D1A-1FE807B1F92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BE0573D-17CA-05EC-29D5-553ABE09D46C" name="Food_Item_Regular_Menu_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<generatorID>BFB0C649-18D9-1468-5E81-606EB2D72165</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CCB1C6A-7A9C-F460-849A-F6FA75C627E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

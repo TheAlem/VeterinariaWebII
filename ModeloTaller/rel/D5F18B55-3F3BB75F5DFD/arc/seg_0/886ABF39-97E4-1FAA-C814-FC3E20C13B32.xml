@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="886ABF39-97E4-1FAA-C814-FC3E20C13B32" name="FKArc_1">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:37:10 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>7CED483D-D359-4732-A42A-4567EAD5544C</table>
+<fkeys>
+<fkeyID>296148D1-6A14-F43D-8CC0-5159007B8AFE</fkeyID>
+<fkeyID>61706CF2-22A6-54BF-1686-458E74598936</fkeyID>
+<fkeyID>874CFC7A-0A1F-4D80-723B-498077F2D842</fkeyID>
+</fkeys>
+</FKArc>

@@ -4,7 +4,7 @@
 <createdTime>2023-10-31 20:45:42 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-10-31 20:47:24 UTC</createdTime>
 <ownerDesignName>ModeloTaller</ownerDesignName>
 <engineerTo>
-<item key="DB505B51-DAE4-56F0-9938-2EE42AD7385D" value="true"/>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,5 +28,50 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="OrderNumber" id="E67E08E7-2708-48E1-66F8-E8924D5A2A56">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:19:03 UTC</createdTime>
+<generatorID>86E38592-0E81-B98A-02C6-07479E10A139</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
+</engineerTo>
+<referedAttribute>8F3FEEA1-5DB7-F81A-5783-B3004E435AF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="7E451A42-2E9D-628D-AA73-5FAB1BF372D6">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:19:03 UTC</createdTime>
+<generatorID>86E38592-0E81-B98A-02C6-07479E10A139</generatorID>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
+</engineerTo>
+<referedAttribute>CB3A5EB3-0D68-F033-4387-303CBDBD3567</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="511E2CA5-B778-7D58-AE8F-0667DBA8AF75" name="Order Line PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-11-03 20:18:54 UTC</createdTime>
+<ownerDesignName>ModeloTaller</ownerDesignName>
+<engineerTo>
+<item key="D5F18B55-E754-2455-08BB-3F3BB75F5DFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E67E08E7-2708-48E1-66F8-E8924D5A2A56</attributeRef>
+<attributeRef>7E451A42-2E9D-628D-AA73-5FAB1BF372D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
